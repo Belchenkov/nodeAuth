@@ -1,8 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script|Gloria+Hallelujah|Titillium+Web');
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: #fff url('../images/hip-square.png') repeat;
+  font-family: 'Muli', sans-serif;
 }
 
-a {
-  color: #00B7FF;
+.navbar.navbar-default {
+  background: #fff url('../images/zig zag wool.png');
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navbar.navbar-default a,
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+  font-size: 2rem;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.navbar.navbar-default a:hover,
+.navbar-default .navbar-nav>li>a:hover {
+  color: #5261a7;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+  color: #5261a7;
+  background: transparent;
 }
