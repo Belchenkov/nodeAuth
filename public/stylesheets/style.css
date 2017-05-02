@@ -31,3 +31,25 @@ body {
   color: #5261a7;
   background: transparent;
 }
+
+ul.success li {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #3c763d;
+  background-color: #dff0d8;
+  list-style-type: none;
+  font-size: 18px;
+}
+
+ul.error li {
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #dff0d8;
+  border: 1px solid #ebccd1;
+  border-radius: 4px;
+  color: #a94442;
+  list-style-type: none;
+  font-size: 18px;
+}
